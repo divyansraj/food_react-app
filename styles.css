@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background: #0b1419;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  padding: 2px;
+}
+.nav-items > ul > li {
+  margin: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+li a {
+  text-decoration: none;
+  color:white;
+}
+.logo {
+  width: 200px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  background: transparent;
+}
+/* .nav-items > ul > li:hover{
+    border-style: dotted;
+    border-width: 0 0 5px 0;
+    border: 0 0 5px 0 dotted white;
+} */
+
+.hero-section {
+  background: url(https://foodhub.modeltheme.com/wp-content/uploads/2020/02/foodhub-slider-main-food-v4.jpg?id=20741);
+  /* background-position:center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 45px;
+}
+
+.btn2 {
+  border-radius: 0 20px 20px 0;
+  border: 1px solid rgb(103, 98, 98);
+  border-left: 0px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+/* Hero search bar */
+.search-bar {
+  display: flex;
+}
+.input {
+  padding: 15px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid rgb(103, 98, 98);
+  border-right: 0px;
+  outline: none;
+}
+/* Hero Search Bar ends */
+
+/* Search Bar starts */
+.search {
+  width: 100%;
+}
+.search input {
+  width: 600px;
+  padding: 15px;
+  border-radius: 20px 0 0 20px;
+  border: 1px solid rgb(103, 98, 98);
+  outline: none;
+  border-right: 0px;
+  margin-bottom: 20px;
+}
+/* Search Bar starts */
+
+/*All listed Restaurants list starts  */
+.Restraurant {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.Restraurant-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.Restraurant-card a{
+  text-decoration: none;
+  color:#333;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  flex-direction: column;
+  width: 250px;
+}
+.food-img-container {
+  width: 250px;
+  height: 170px;
+}
+.food-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.restaurant-name {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.head {
+  margin-bottom: 20px;
+}
+/*All listed Restaurants list starts  */
+
+/* Restaurant Shimmer Ui starts */
+.h1 {
+  width: 400px;
+  height: 25px;
+}
+.h2 {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.h3 {
+  width: 150px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+.bt {
+  margin-bottom: 30px;
+}
+.shimmer {
+  border-radius: 5px;
+  animation: slide 1s infinite;
+}
+@keyframes slide {
+  0% {
+    background-color: rgb(230, 230, 230);
+  }
+  50% {
+    background-color: rgb(214, 214, 214);
+  }
+  100% {
+    background-color: rgb(231, 231, 231);
+  }
+}
+/*Restaurant Shimmer Ui ends */
+
+/* Restaurant Menu Shimmer Ui starts */
+.p{
+  width: 400px;
+  height: 20px;
+}
+/* Restaurant Menu Shimmer Ui ends */
+
+
+/* Dark MOde  */
+.dark {
+  background-color: #000000;
+  color: #c1baba;
+}
+.light {
+  background-color: #fff;
+  color: #333;
+}
+.mode-theme {
+  background: transparent;
+  border: none;
+  font-size: 34px;
+}
+/* Mode Ends */
+
+/* res menu starts  */
+.res-head {
+  margin: 30px 0;
+  display: flex;
+  gap: 25px;
+}
+.res-menu {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.res-img {
+  width: 200px;
+  height: 200px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+.menu-food-card {
+  background: #e9e9e93b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.menu-food-container > img {
+  width: 118px;
+  height: 96px;
+}
+/* res menu ends  */
